@@ -1,0 +1,59 @@
+/* Mist color scheme */
+.home-page {
+    background-color: #F3DEBA;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .home-page .subpage h1{
+    color: #675D50;
+    font-size: 40px;
+  }
+  .home-page .subpage p{
+    color: #A9907E;
+    margin-top: -30px;
+  }
+  
+  /* Stone color scheme */
+  .home-page.stone {
+    background-color: #F3DEBA;
+    color: #444;
+  }
+  
+  /* Shadow color scheme */
+  .home-page.shadow {
+    background-color: #F3DEBA;
+    color: #555;
+  }
+  
+  /* Autumn Foliage color scheme */
+  .home-page.autumn-foliage {
+    background-color: #F3DEBA;
+    color: #663300;
+  }
+  
+  .home-page h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .home-page p {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .home-page a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-page a:hover {
+    background-color: #0056b3;
+  }
+  
