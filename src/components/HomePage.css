@@ -7,10 +7,7 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZvb2R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60");
-}
+  }
 .home-page .subpage h1 {
   color: #675d50;
   font-size: 40px;
