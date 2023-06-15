@@ -5,6 +5,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
   }
   .home-page .subpage h1{
     color: #675D50;
