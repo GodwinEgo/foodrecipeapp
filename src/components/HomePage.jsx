@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./HomePage.css";
 import bg from "../components/Images/slide_2.jpg";
 
@@ -10,6 +9,11 @@ const HomePage = () => {
       <div className="overlay">
         <h1>FOOD RECIPE</h1>
         <p>With EgoTheDev</p>
+        <div className="buttons">
+          <a href="/register">
+            Get Started
+          </a>
+        </div>
       </div>
     </div>
   );
