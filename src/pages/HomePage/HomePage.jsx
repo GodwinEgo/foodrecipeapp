@@ -1,17 +1,27 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "../../index.css";
+import PreLoader from "../../components/PreLoader";
 import NavBar from "../../components/NavBar";
-import {Link} from "react-router-dom";
 
 const HomePage = () => {
 
-    return (<div className="home-page">
+    const [isLoading, setIsLoading] = useState(true)
 
-        <div className="Home__Page">
-            <NavBar/>
-            <Link to="/category">Category</Link>
-        </div>
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false)
+        }, 1000)
+    }, [])
 
+    return (<div>
+        {isLoading ? (
+            <PreLoader/>
+        ) : (
+            <div className="Home__Page">
+                <NavBar/>
+                <h1>Home Page</h1>
+            </div>
+        )}
     </div>);
 };
 

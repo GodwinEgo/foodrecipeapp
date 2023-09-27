@@ -276,6 +276,10 @@
     font-size: 16px;
 }
 
+.navbar a {
+    color: white;
+}
+
 .navbar .navbar__links {
     list-style: none;
     display: flex;

@@ -8,13 +8,41 @@ const NavBar = () => {
         <div className="navbar">
 
             <ul className="navbar__links">
-                <li>Home</li>
-                <li>Category</li>
-                <li>Recipes</li>
-                <li>Pages</li>
-                <li>Blog</li>
-                <li>Shop</li>
-                <li>Contact</li>
+                <li>
+                    <Link to="/">
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/category">
+                        Category
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/">
+                        Recipes
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/">
+                        Pages
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/">
+                        Blog
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/">
+                        Shop
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/">
+                        Contact
+                    </Link>
+                </li>
             </ul>
 
             <Link to='/' className="navbar__cart__link">
