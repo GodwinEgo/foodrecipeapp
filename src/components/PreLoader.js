@@ -5,7 +5,7 @@ const PreLoader = () => {
 
     return (
         <div className="preloader">
-            <h1>Cooking In Progress</h1>
+            <h1 className="heading__text">Cooking In Progress</h1>
             <div id="cooking">
                 <div className="bubble"></div>
                 <div className="bubble"></div>

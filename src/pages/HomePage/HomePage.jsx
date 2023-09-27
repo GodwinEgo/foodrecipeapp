@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import "./HomePage.css";
+import "../../index.css";
 import PreLoader from "../../components/PreLoader";
 
 const HomePage = () => {
@@ -16,7 +16,7 @@ const HomePage = () => {
         {isLoading ? (
             <PreLoader/>
         ) : (
-            <div>
+            <div className="app">
                 <h1>Welcome to My Recipe App</h1>
             </div>
         )}
