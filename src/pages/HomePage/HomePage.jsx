@@ -1,12 +1,25 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./HomePage.css";
+import PreLoader from "../../components/PreLoader";
 
 const HomePage = () => {
+
+    const [isLoading, setIsLoading] = useState(true)
+
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false)
+        }, 3000)
+    }, [])
+
     return (<div className="home-page">
-        <div className="overlay">
-            <h1>FOOD RECIPE</h1>
-            <p>With EgoTheDev</p>
-        </div>
+        {isLoading ? (
+            <PreLoader/>
+        ) : (
+            <div>
+                <h1>Welcome to My Recipe App</h1>
+            </div>
+        )}
     </div>);
 };
 
