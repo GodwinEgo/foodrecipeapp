@@ -1,19 +1,15 @@
 import React from "react";
-import { Routes, BrowserRouter, Route } from "react-router-dom";
-import LoginPage from "./components/LoginPage";
-import RegisterPage from "./components/RegisterPage";
-import HomePage from "./components/HomePage";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+
+import HomePage from "./pages/HomePage/HomePage";
 
 const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/login" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-      </Routes>
-    </BrowserRouter>
-  );
+    return (<BrowserRouter>
+        <Routes>
+            <Route path="/" element={<HomePage/>}/>
+
+        </Routes>
+    </BrowserRouter>);
 };
 
 export default App;
