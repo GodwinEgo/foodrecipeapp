@@ -263,3 +263,79 @@
 }
 
 /*===============PRELOADER STYLING ENDS=================*/
+
+/*===============NAVBAR STYLING BEGINS==================*/
+
+.navbar {
+    height: 8vh;
+    background-color: #000;
+    margin: 0 !important;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.navbar .navbar__links {
+    list-style: none;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.navbar .navbar__links li {
+    cursor: pointer;
+}
+
+.navbar .navbar__buttons {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}
+
+.navbar .navbar__buttons .navbar__login__link,
+.navbar .navbar__buttons .navbar__submit__link {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbar .navbar__buttons .navbar__login__link {
+    gap: 1vh;
+    justify-content: space-between;
+    transition: all ease-in-out 500ms;
+}
+
+.navbar .navbar__buttons .navbar__login__link:hover {
+    color: #ff0000;
+}
+
+.navbar .navbar__buttons .navbar__submit__link {
+    background-color: #ff4a52;
+    padding: 0 27px;
+    gap: 1vh;
+    justify-content: space-between;
+    border-radius: 25px;
+    transition: all ease-in-out 500ms;
+}
+
+.navbar .navbar__buttons .navbar__submit__link:hover {
+    background-color: #ff0000;
+}
+
+.navbar .navbar__buttons .navbar__submit__link p {
+    font-size: 13px;
+}
+
+.navbar .navbar__cart__link {
+    color: #fff;
+    display: flex;
+    width: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*===============NAVBAR STYLING ENDS==================*/
